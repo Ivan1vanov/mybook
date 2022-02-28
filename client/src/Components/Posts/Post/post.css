@@ -1,0 +1,17 @@
+/* .likedPost {
+    background-color: brown;
+    padding: 10px;
+    opacity: 20%;
+}
+
+.likedIconHeart {
+    background-color: #ff3347a1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+} */
+
+.likeButton {
+    display: flex;
+    align-items: center;
+}

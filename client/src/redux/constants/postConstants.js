@@ -1,0 +1,8 @@
+export const GET_POSTS = 'GET_POSTS'
+export const CREATE_POST = 'CREATE_POST'
+export const UPDATA_POST = 'UPDATA_POST'
+export const DELETE_POST = 'DELETE_POST'
+export const LIKE_POST = 'LIKE_POST' 
+export const GET_POSTS_BY_SEARCH = 'GET_POSTS_BY_SEARCH'
+export const GET_POST_DETAILS = 'GET_POST_DETAILS'
+export const COMMENT_POST = 'COMMENT_POST'
