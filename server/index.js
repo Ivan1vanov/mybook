@@ -27,7 +27,6 @@ app.use('/api/messages/', messageRouter)
 
 //connection
 const PORT = process.env.PORT || 5000 
-// const URL = 'mongodb+srv://userbook:userbook@cluster0.5glkz.mongodb.net/ivansbook?retryWrites=true&w=majority'
 
 mongoose.connect(process.env.URL_CONNECTION, { useNewUrlParser: true }).then(() => {
     app.listen(PORT, () => console.log(`server started on http://localhost:${PORT}`))
